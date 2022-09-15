@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.7.0",
+    "@reduxjs/toolkit": "^1.8.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "flowbite": "^1.5.3",
+    "flowbite-react": "^0.1.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.35.0",
+    "react-redux": "^8.0.2",
     "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.4",
+    "react-typed": "^1.2.0",
+    "sweetalert2": "^11.4.33",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +44,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.10",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
