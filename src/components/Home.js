@@ -3,7 +3,7 @@ import React from "react";
 import { HiArrowRight } from "react-icons/hi";
 import Typed from "react-typed";
 import profile from "../assets/Profile.pdf";
-import header_background from "../assets/header_background.jpg";
+// import header_background from "../assets/header_background.jpg";
 import imgHome from "../assets/imgHome.jpg";
 
 const Home = () => {

@@ -22,22 +22,27 @@ const Portfolio = () => {
         "It is an application of what you have learned in HTML and CSS.",
       url: "https://ahmed-alabadla.github.io/Template/",
       code: "https://github.com/Ahmed-Alabadla/Template.git",
+      done: true,
     },
     {
       id: 2,
       title: "Tanweel",
       src: tanweel,
-      description: "It is an application of what you learned in Bootstrap.",
+      description:
+        "I was part of the work team, Which was assign me to program the landing page, and programmed it using Bootstrap.",
       url: "https://ahmed-alabadla.github.io/tanweel/",
       code: "https://github.com/Ahmed-Alabadla/tanweel.git",
+      done: true,
     },
     {
       id: 3,
       title: "Aljode",
       src: aljode,
-      description: "It is an application of what you learned in Tailwind CSS.",
+      description:
+        "I was part of the work team, Which was assign me to program the landing page, and programmed it using Tailwind CSS.",
       url: "https://ahmed-alabadla.github.io/aljode/",
       code: "https://github.com/Ahmed-Alabadla/aljode.git",
+      done: true,
     },
     {
       id: 4,
@@ -47,6 +52,7 @@ const Portfolio = () => {
         "It is an application of what you learned in React JS and how to work with api using REST-API.",
       url: "https://ahmed-alabadla.github.io/weather-app/",
       code: "https://github.com/Ahmed-Alabadla/weather-app.git",
+      done: true,
     },
     {
       id: 5,
@@ -56,6 +62,7 @@ const Portfolio = () => {
         "It is an application of what you learned in ( Tailwind CSS , React JS and Redux) and how to work with api using REST-API.",
       url: "https://todo-list-tasks-app.000webhostapp.com/",
       code: "https://github.com/Ahmed-Alabadla/ToDo-List-App.git",
+      done: false,
     },
   ];
 
@@ -117,7 +124,10 @@ const Portfolio = () => {
                     <div className="flex items-center justify-center min-h-full p-4 sm:p-0">
                       <div className="relative bg-white dark:bg-slate-800  rounded-lg  overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full">
                         <div className="p-4 flex justify-between">
-                          <h3 className="text-xl font-medium">{item.title}</h3>
+                          <h3 className="text-xl font-medium">
+                            {item.title} {"  "}
+                            {item.done ? "" : "( may the construction )"}
+                          </h3>
                           <button onClick={() => setShow(false)}>
                             <MdClose size={25} className="text-red-500" />
                           </button>
